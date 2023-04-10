@@ -2,15 +2,8 @@
     "workbench.colorTheme": "Dracula Soft",
     "window.menuBarVisibility": "classic",
     "editor.inlineSuggest.enabled": true,
-    "workbench.editorAssociations": {
-        "git-rebase-todo": "default"
-    },
-    "workbench.startupEditor": "none",
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": true,
-        "plaintext": false,
-        "markdown": false
+    "github.copilot.advanced": {
+        "debug.conversation": true
     },
     "files.autoSave": "onFocusChange",
     "vscode-pets.petColor": "black",
@@ -19,13 +12,12 @@
     "settingsSync.ignoredSettings": [
         "-dotfiles.repository"
     ],
-    "github.codespaces.createCodespaceInNewWindow": true,
     "editor.fontFamily": "'Input', 'Input Mono', Consolas, 'Courier New', monospace",
-    "vim.handleKeys":{
+    "githubPullRequests.pullBranch": "never",
+     "vim.handleKeys":{
         "<C-c>": false,
         "<C-v>": false,
         "<C-f>": false,
         "<C-a>": false
     }
-
 }
